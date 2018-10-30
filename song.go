@@ -60,7 +60,7 @@ func animalFeature(a animal) {
 	}
 }
 func mainLyric(a1 animal, a2 animal) {
-	if a2.Name == "fly" {
+	if a2.position == "first" {
 		fmt.Println("She swallowed the " + a1.Name + " to catch the " + a2.Name + ";")
 	} else {
 		fmt.Println("She swallowed the " + a1.Name + " to catch the " + a2.Name + ",")
